@@ -1,6 +1,6 @@
-[submodule "nncodec-fork"]
-	path = nncodec-fork
-	url = git@github.com:Conzel/nncodec.git
 [submodule "data_utils_pkg"]
 	path = data_utils_pkg
 	url = git@github.com:Conzel/data_utils.git
+[submodule "nncodec-fork"]
+	path = nncodec-fork
+	url = git@github.com:Conzel/nncodec.git
