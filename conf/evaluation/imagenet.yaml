@@ -1,0 +1,5 @@
+dataset: "imagenet"
+nbatches: 1000
+batch_size: 16
+entropy_model: "deepcabac"
+transpose: false

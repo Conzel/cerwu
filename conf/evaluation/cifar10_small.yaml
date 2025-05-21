@@ -1,0 +1,5 @@
+dataset: "cifar10"
+nbatches: 1
+batch_size: 128
+entropy_model: "deepcabac"
+transpose: false

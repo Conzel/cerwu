@@ -1,0 +1,3 @@
+dataset: "cifar10"
+nbatches: 500
+batch_size: 128

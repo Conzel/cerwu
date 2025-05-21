@@ -1,0 +1,18 @@
+experiment_name: "dummy"
+experiment_description: "No description provided."
+experiment_task: "cv"
+device: "cpu"
+database_path: "${hydra:runtime.cwd}/experiments.db"
+benchmark: false
+
+defaults:
+  - _self_
+
+  # - slurm_config.yaml # Reference the slurm_config.yaml
+  # - override hydra/launcher: submitit_slurm # This is the missing part
+
+  - compression: optq
+  - network: resnet18_cifar10
+  - calibration: cifar10
+  - evaluation: cifar10
+  - logger: info

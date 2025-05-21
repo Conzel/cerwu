@@ -1,0 +1,19 @@
+defaults:
+  - submitit_slurm
+
+partition: "a100-galvani"
+timeout_min: 4320 # Job runtime in minutes (3 days = 4320 min)
+gpus_per_node: 1 # Request one GPU
+cpus_per_task: 1 # 1 CPU core per task
+mem_gb: 100 # 100GB memory
+nodes: 1 # 1 node
+tasks_per_node: 1 # 1 task per node
+#
+# additional_parameters:
+# add mail? see https://github.com/facebookresearch/hydra/blob/main/plugins/hydra_submitit_launcher/hydra_plugins/hydra_submitit_launcher/config.py
+#   gres: gpu:1 # GPU allocation
+additional_parameters:
+  mail-user: "a.conzelmann@student.uni-tuebingen.de"
+  mail-type: "END,FAIL"
+  output: "logs/hostname_%j.out"
+  error: "logs/hostname_%j.err"

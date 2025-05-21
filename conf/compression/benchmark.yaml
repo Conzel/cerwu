@@ -1,0 +1,6 @@
+method: "nnc" # also possible: optq-rd and optq-rd-r
+log10_lm: -37
+groupsize: -1
+entropy_model: "deepcabac"
+nbins: 16
+scan_order_major: "row"

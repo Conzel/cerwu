@@ -1,0 +1,5 @@
+dataset: "wikitext"
+nbatches: 100
+batch_size: 1
+entropy_model: "deepcabac"
+transpose: false

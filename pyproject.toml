@@ -1,0 +1,46 @@
+[project]
+name = "nn_compression"
+version = "0.1"
+authors = [{ name = "Anonymous", email = "anonymous@todo.com" }]
+description = ""
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = []
+dependencies = [
+  "python-githooks",
+  "matplotlib",
+  "numpy==1.26",
+  "torch==2.2",
+  "cyclopts",
+  "torchvision==0.17",
+  "transformers",
+  "pandas",
+  "py-markdown-table",
+  "pyyaml",
+  "tqdm",
+  "datasets",
+  "timm",
+  "hydra-core",
+  "hydra-submitit-launcher",
+  "scikit-learn",
+  "detectors",
+  "tensorflow",
+  "opencv-python",
+]
+
+[tool.pytest.ini_options]
+markers = ["slow: marks tests as slow (deselect with '-m \"not slow\"')"]
+
+[build-system]
+requires = ["scikit-build-core>=0.3.3", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "python-githooks"]
+
+[tool.setuptools.packages.find]
+where = ["src/nn_compression"]
+
+# [tool.scikit-build]
+# cmake.build-type = "Debug"

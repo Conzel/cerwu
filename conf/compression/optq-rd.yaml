@@ -1,0 +1,6 @@
+method: "optq-rd" # also possible: optq-rd and optq-rd-r
+log10_lm: -5
+groupsize: -1
+entropy_model: "deepcabac"
+nbins: 12
+scan_order_major: "row"
