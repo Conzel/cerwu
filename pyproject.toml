@@ -1,7 +1,7 @@
 [project]
 name = "nn_compression"
 version = "0.1"
-authors = [{ name = "Anonymous", email = "anonymous@todo.com" }]
+authors = [{ name = "Alexander Conzelmann", email = "a.conzelmann@uni-tuebingen.de" }]
 description = ""
 readme = "README.md"
 requires-python = ">=3.11"

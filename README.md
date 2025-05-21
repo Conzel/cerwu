@@ -34,4 +34,5 @@ Before commiting, install the githooks via
 ```python3 -m python_githooks```
 
 ## Authors
-- Anonymous
+- Alexander Conzelmann
+- Robert Bamler
