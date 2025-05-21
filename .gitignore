@@ -1,4 +1,14 @@
+outputs
+multirun
+hessians
+repomix*
+jupy
+experiments/figures
+copy-remote.sh
+pythia*
 configurations/*
+.vscode
+*.npy
 paper-plots
 !configurations/*.yaml
 .*_rebuild
@@ -614,4 +624,51 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+# CLion-specific files
+.idea/
+
+# CMake build files
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Compiler-generated files
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Logs and debugging files
+*.log
+*.dSYM/
+
+# Generated files
+*.generated.cpp
+*.generated.h
+
+# User-specific files
+*.iml
+*.ipr
+*.iws
+
+# Exclude vcpkg packages
+vcpkg_installed/
+
+# Ignore CLion run/debug configurations
+runConfigurations/
+
+install_manifest.txt
+experiments/*.npz
+experiments/2025-01-23-tabpfn
+*.pkl
+*.csv
+*.db
 
