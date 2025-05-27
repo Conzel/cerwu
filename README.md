@@ -1,6 +1,6 @@
 # CERWU
 Repository for the paper _Reducing Storage of Pretrained Neural Networks by Rate-Constrained Quantization and Entropy Coding_, 
-available under _[Link will be added upon publication]_.
+available under https://arxiv.org/abs/2505.18758.
 
 ## Installation
 Before starting, make sure you have a C++17-compatible compiler installed. We also recommend using Python 3.12, preferrably in a fresh venv using an environment of your choice. 
